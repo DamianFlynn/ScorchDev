@@ -2,8 +2,8 @@
     "Variables":  {
                       "ContinuousDeployment-WebserviceEndpoint":  {
                                                                       "isEncrypted":  false,
-                                                                      "Description":  "",
-                                                                      "Value":  "https://sma.diginerve.net"
+                                                                      "Description":  "Local SMA Instance",
+                                                                      "Value":  "http://sma.diginerve.net"
                                                                   },
                       "ContinuousDeployment-CredentialName":  {
                                                                   "isEncrypted":  false,
@@ -32,8 +32,8 @@
                                                                  },
                       "ContinuousDeployment-RepositoryInformation":  {
                                                                          "isEncrypted":  false,
-                                                                         "Description":  "",
-                                                                         "Value":  "{\"ContinuousDeployment\":{\"Path\":\"C:\\\\SMAData\\\\ScorchDev\",\"GlobalsFolder\":\"Globals\",\"RepositoryPath\":\"https://github.com/damianflynn/ScorchDev.git\",\"RunbookFolder\":\"Runbooks\",\"PowerShellModuleFolder\":\"PowerShellModules\",\"CurrentCommit\":\"48a4222\",\"Branch\":\"master\"},\"RunbookExample\":{\"Path\":\"C:\\\\SMAData\\\\RunbookExample\",\"RepositoryPath\":\"https://github.com/damianflynn/RunbookExample.git\",\"RunbookFolder\":\"Runbooks\",\"GlobalsFolder\":\"Globals\",\"PowerShellModuleFolder\":\"PowerShellModules\",\"CurrentCommit\":\"-1\",\"Branch\":\"master\"}}"
+                                                                         "Description":  "Repository Details for Continuous Deployment",
+                                                                         "Value":  "{\r\n    \"ContinuousDeployment\":  {\r\n                                 \"RunbookFolder\":  \"Runbooks\",\r\n                                 \"Branch\":  \"master\",\r\n                                 \"CurrentCommit\":  \"-1\",\r\n                                 \"Path\":  \"C:\\\\GIT\\\\ContinuousDeployment\",\r\n                                 \"PowerShellModuleFolder\":  \"PowerShellModules\",\r\n                                 \"RepositoryPath\":  \"https://github.com/damianflynn/ScorchDev.git\"\r\n                             }\r\n}"
                                                                      }
                   }
 }
