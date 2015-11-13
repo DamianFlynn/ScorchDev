@@ -3,7 +3,7 @@
                       "ContinuousDeployment-WebserviceEndpoint":  {
                                                                       "isEncrypted":  false,
                                                                       "Description":  "Local SMA Instance",
-                                                                      "Value":  "http://sma.diginerve.net"
+                                                                      "Value":  "https://sma.diginerve.net"
                                                                   },
                       "ContinuousDeployment-CredentialName":  {
                                                                   "isEncrypted":  false,
